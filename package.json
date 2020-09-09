@@ -1,8 +1,8 @@
 {
   "name": "mobile-input",
   "description": "手机号输入组件",
-  "version": "1.0.1",
-  "main": "index.js",
+  "version": "1.0.2",
+  "main": "lib/index.js",
   "author": "runningiris",
   "license": "MIT",
   "dependencies": {
