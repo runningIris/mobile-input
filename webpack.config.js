@@ -1,4 +1,5 @@
 const path = require("path")
+const pkg = require("./package.json")
 
 module.exports = {
   mode: "none",
@@ -8,6 +9,9 @@ module.exports = {
   output: {
     filename: "[name].js",
     path: path.join(__dirname, "/lib"),
+    library: pkg.name,
+    libraryTarget: "umd",
+    libraryExport: "default",
   },
   module: {
     rules: [
